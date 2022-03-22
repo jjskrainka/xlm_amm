@@ -19,3 +19,8 @@ def change_trust(asset_object, receiver_address, horizon):
 def fund_account(address):
     r = requests.get('https://horizon-testnet.stellar.org/friendbot?addr=' + address)
     return r.text
+
+def get_sequence(address):
+    horizon = connect_horizon()
+    sequence = horizon.load_account(address).sequence
+    return sequence
