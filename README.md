@@ -1,4 +1,4 @@
-<font size=1>**xlm_amm**</font>
+<font size=3>**xlm_amm**</font>
  Automated Market Maker on Stellar Network (XLM)
 
 **Description:**
