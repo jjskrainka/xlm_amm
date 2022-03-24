@@ -7,10 +7,10 @@ from helpers import connect_horizon
 
 class OrderBook(object):
     server = connect_horizon()
-    usd = Asset("USD", os.environ.get("PUBLIC2"))
+    usd = Asset("USD", os.environ.get("LIQUIDITY_POOL"))
     native = Asset.native()
     ob = server.orderbook(native, usd)
-    print(ob)
+    print(ob.call())
 
 
 if __name__ == "__main__":
