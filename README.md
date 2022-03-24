@@ -1,4 +1,4 @@
-https://github.com/jjskrainka/xlm_amm/issues/3#issue-1178866693
+https://user-images.githubusercontent.com/99990404/159830562-1cefd887-2891-4abb-a52e-9712c7f149e6.jpeg
 # xlm_amm
  Automated Market Maker on Stellar Network (XLM)
 
