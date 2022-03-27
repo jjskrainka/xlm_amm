@@ -6,6 +6,7 @@ The end goal of this project is to provide liquidity to the stellar network whil
 
 order_book.py will be used to query the most popular liquidity pool to try and beat their exchange rate to increase my own pool's usage.
 price.py is another reference point using CoinMarketCap's price of XLM.
+acc_balance.py is used to verify transactions and balances.
 
 Installation:
 
