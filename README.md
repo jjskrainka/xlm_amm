@@ -13,6 +13,8 @@ The end goal of this project is to provide liquidity to the stellar network whil
 -buyer.py will validate the trading account contains assets, retrieve the order_book, and attempt to beat the current exchange rate by depositing pool shares for liquidity.
 
 -seller.py will be called on a cron scheduled time period or when the trading account has no assets to deposit. It will check if the exchange rates used by the buying bot are lower than the current exchange rate for the two assets. If the exchange rate for the two assets has increased by a pre-determined percent, it will pull all of the pool shares to replenish the trading account's funds.
+    
+    -Should implement a sqlite db to record the buyer.py exchange rates to be used by seller.py
 
 -liquidity_pool.py is how the liquidity pool is initialized and how buyer.py and seller.py grab its ID.
 
