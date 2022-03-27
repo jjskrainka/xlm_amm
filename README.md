@@ -16,7 +16,7 @@ The end goal of this project is to provide liquidity to the stellar network whil
 
 -test_acc.py was used to generate test account keypairs
 
-Installation:
+**Installation:**
 
 pip install -r requirements.txt
 
