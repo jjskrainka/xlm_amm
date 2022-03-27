@@ -4,6 +4,9 @@
 **Description:**
 The end goal of this project is to provide liquidity to the stellar network while simultaneously make money in the process.
 
+order_book.py will be used to query the most popular liquidity pool to try and beat their exchange rate to increase my own pool's usage.
+
+
 Installation:
 
 **Roadmap:**
