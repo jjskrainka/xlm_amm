@@ -10,7 +10,9 @@ The end goal of this project is to provide liquidity to the stellar network whil
 
 -acc_balance.py is used to verify transactions and balances.
 
--buyer.py and seller.py will be used to balance the two assets in the liquidity pool. It's undetermined how they will be used to turn a profit.
+-buyer.py will validate the trading account contains assets, retrieve the order_book, and attempt to beat the current exchange rate by depositing pool shares for liquidity.
+
+-seller.py will be called on a cron scheduled time period or when the trading account has no assets to deposit. It will check if the exchange rates used by the buying bot are lower than the current exchange rate for the two assets. If the exchange rate for the two assets has increased by a pre-determined percent, it will pull all of the pool shares to replenish the trading account's funds.
 
 -liquidity_pool.py is how the liquidity pool is initialized and how buyer.py and seller.py grab its ID.
 
