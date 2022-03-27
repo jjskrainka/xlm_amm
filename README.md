@@ -14,6 +14,8 @@ The end goal of this project is to provide liquidity to the stellar network whil
 
 -liquidity_pool.py is how the liquidity pool is initialized and how buyer.py and seller.py grab its ID.
 
+-test_acc.py was used to generate test account keypairs
+
 Installation:
 
 pip install -r requirements.txt
